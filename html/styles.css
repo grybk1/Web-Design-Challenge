@@ -11,7 +11,7 @@ H2{
   color: rgb(16, 165, 145);
   }
 iframe{
-  width: 100%;
+ width: 100%;
  border-width: 0vmin;
  border-style: none;
  padding: 0mm;
@@ -24,6 +24,7 @@ iframe{
   background-color: white ;
   padding: 1px;
   border-radius: 3px;
+  width: 100%;
 }
 
 .navbar h1{
@@ -58,12 +59,35 @@ iframe{
   
 }
 
-img{
- 
-  float: left; 
-  
+#explanation{
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  font-family: Georgia, serif;
+
 }
+
+img{
+   float: left; 
+  }
 P{
   margin-top: 20px;
+  background-color: white ;
+  padding: 1px;
+  border-radius: 3px;
+  font-family: Georgia, serif;
   
 }
+
+@media (max-width: 480px){
+  .navbar li{
+      padding 10px;
+  }
+  .navbar ul{
+   visibility: hidden;
+  }
+  #nav-select {
+  visibility: visible;
+}
+}
+
